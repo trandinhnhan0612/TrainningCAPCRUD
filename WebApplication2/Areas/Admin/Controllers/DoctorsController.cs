@@ -66,7 +66,7 @@ namespace WebApplication2.Areas.Admin.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);// GET: Admin// GET: Admin
             }
             Doctor doctor = db.Doctors.Find(id);
             if (doctor == null)
