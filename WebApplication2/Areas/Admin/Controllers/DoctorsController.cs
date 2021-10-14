@@ -48,7 +48,7 @@ namespace WebApplication2.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Department,Description")] Doctor doctor)
+        public ActionResult Create(Doctor doctor)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace WebApplication2.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Department,Description")] Doctor doctor)
+        public ActionResult Edit(Doctor doctor)
         {
             if (ModelState.IsValid)
             {
