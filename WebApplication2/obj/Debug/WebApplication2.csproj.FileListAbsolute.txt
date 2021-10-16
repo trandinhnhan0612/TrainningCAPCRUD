@@ -106,3 +106,9 @@ E:\TA3-PM\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreC
 E:\TA3-PM\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 E:\TA3-PM\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 E:\TA3-PM\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.DataSet.dll
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.dll
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.pdb
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.xml
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.DataSet.pdb
+E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.DataSet.xml

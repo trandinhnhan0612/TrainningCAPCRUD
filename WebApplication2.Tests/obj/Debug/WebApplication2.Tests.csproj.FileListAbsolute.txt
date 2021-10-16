@@ -50,3 +50,14 @@ E:\TA3-PM\WebApplication2\WebApplication2.Tests\obj\Debug\WebApplication2.Tests.
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\obj\Debug\WebApplication2.Tests.csproj.CopyComplete
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\obj\Debug\WebApplication2.Tests.dll
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\obj\Debug\WebApplication2.Tests.pdb
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.DataSet.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\WebGrease.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Antlr3.Runtime.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.pdb
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.xml
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.DataSet.pdb
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.DataSet.xml
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Antlr3.Runtime.pdb
