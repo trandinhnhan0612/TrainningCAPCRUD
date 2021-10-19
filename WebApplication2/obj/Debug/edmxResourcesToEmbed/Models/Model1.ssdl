@@ -4,7 +4,7 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nchar" MaxLength="10" />
     <Property Name="Department" Type="nchar" MaxLength="10" />
     <Property Name="Description" Type="nchar" MaxLength="50" />
@@ -28,15 +28,15 @@
     <Property Name="version" Type="int" />
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
-  <Association Name="FK_Doctor_Id">
-    <End Role="Doctor" Type="Self.Doctor" Multiplicity="1" />
-    <End Role="Patient" Type="Self.Patient" Multiplicity="0..1" />
+  <Association Name="FK_Patient_Doctor">
+    <End Role="Doctor" Type="Self.Doctor" Multiplicity="0..1" />
+    <End Role="Patient" Type="Self.Patient" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Doctor">
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="Patient">
-        <PropertyRef Name="Id" />
+        <PropertyRef Name="Doctor_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -44,7 +44,7 @@
     <EntitySet Name="Doctor" EntityType="Self.Doctor" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK_Doctor_Id" Association="Self.FK_Doctor_Id">
+    <AssociationSet Name="FK_Patient_Doctor" Association="Self.FK_Patient_Doctor">
       <End Role="Doctor" EntitySet="Doctor" />
       <End Role="Patient" EntitySet="Patient" />
     </AssociationSet>

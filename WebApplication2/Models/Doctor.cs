@@ -14,11 +14,18 @@ namespace WebApplication2.Models
     
     public partial class Doctor
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Doctor()
+        {
+            this.Patients = new HashSet<Patient>();
+        }
+    
         public int Id { get; set; }
         public string Name { get; set; }
         public string Department { get; set; }
         public string Description { get; set; }
     
-        public virtual Patient Patient { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Patient> Patients { get; set; }
     }
 }
