@@ -61,3 +61,7 @@ E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.DataSe
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\ExcelDataReader.DataSet.xml
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Antlr3.Runtime.pdb
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\EPPlus.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\EPPlus.xml
+E:\TA3-PM\WebApplication2\WebApplication2.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

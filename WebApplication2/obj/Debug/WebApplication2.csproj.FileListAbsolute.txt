@@ -112,3 +112,8 @@ E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.pdb
 E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.xml
 E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.DataSet.pdb
 E:\TA3-PM\WebApplication2\WebApplication2\bin\ExcelDataReader.DataSet.xml
+E:\TA3-PM\WebApplication2\WebApplication2\bin\EPPlus.dll
+E:\TA3-PM\WebApplication2\WebApplication2\bin\Microsoft.IO.RecyclableMemoryStream.dll
+E:\TA3-PM\WebApplication2\WebApplication2\bin\System.ComponentModel.Annotations.dll
+E:\TA3-PM\WebApplication2\WebApplication2\bin\EPPlus.xml
+E:\TA3-PM\WebApplication2\WebApplication2\bin\Microsoft.IO.RecyclableMemoryStream.xml

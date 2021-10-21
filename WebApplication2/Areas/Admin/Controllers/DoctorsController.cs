@@ -1,4 +1,5 @@
 ﻿using ExcelDataReader;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using WebApplication2.Models;
 
 namespace WebApplication2.Areas.Admin.Controllers
@@ -135,6 +137,37 @@ namespace WebApplication2.Areas.Admin.Controllers
                     con.Close();
                 }
             }
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Export()
+        {
+            //var doctors = db.Doctors.ToList();
+            var doctors = (from doc in db.Doctors select new {
+                id = doc.Id,
+                name = doc.Name,
+                description = doc.Description,
+                department = doc.Department,
+            });
+            using (ExcelPackage pck = new ExcelPackage())
+            {
+                ExcelWorksheet ws = pck.Workbook.Worksheets.Add("Doctor");
+                ws.Cells["A1"].LoadFromCollection(doctors, true);
+                // Load your collection "accounts"
+
+                Byte[] fileBytes = pck.GetAsByteArray();
+                Response.Clear();
+                Response.Buffer = true;
+                Response.AddHeader("content-disposition", "attachment;filename=DataTable.xlsx");
+                // Replace filename with your custom Excel-sheet name.
+
+                Response.Charset = "";
+                Response.ContentType = "application/vnd.ms-excel";
+                StringWriter sw = new StringWriter();
+                Response.BinaryWrite(fileBytes);
+                Response.End();
+            }
+
             return RedirectToAction("Index");
         }
 
