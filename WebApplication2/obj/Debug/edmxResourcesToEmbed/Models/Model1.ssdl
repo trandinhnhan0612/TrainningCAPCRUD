@@ -8,6 +8,7 @@
     <Property Name="Name" Type="nchar" MaxLength="10" />
     <Property Name="Department" Type="nchar" MaxLength="10" />
     <Property Name="Description" Type="nchar" MaxLength="50" />
+    <Property Name="Image" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="Patient">
     <Key>

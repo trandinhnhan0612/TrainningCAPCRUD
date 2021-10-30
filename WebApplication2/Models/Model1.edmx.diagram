@@ -5,9 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="5eaca6942ab84e3583e9336e85900c27" Name="Diagram1">
-        <EntityTypeShape EntityType="TestModel.Doctor" Width="1.5" PointX="0.75" PointY="0.875" />
         <EntityTypeShape EntityType="TestModel.Patient" Width="1.5" PointX="3" PointY="0.875" />
         <EntityTypeShape EntityType="TestModel.sysdiagram" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="TestModel.Doctor" Width="1.5" PointX="0.75" PointY="0.75" />
         <AssociationConnector Association="TestModel.FK_Patient_Doctor" />
       </Diagram>
     </edmx:Diagrams>

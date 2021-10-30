@@ -25,8 +25,8 @@ namespace WebApplication2.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Doctor> Doctors { get; set; }
         public virtual DbSet<Patient> Patients { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+        public virtual DbSet<Doctor> Doctors { get; set; }
     }
 }

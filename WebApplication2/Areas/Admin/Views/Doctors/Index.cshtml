@@ -173,11 +173,13 @@
             <div class="card">
                 <div class="card-header">
                     Simple Datatable
+                    <a class="btn btn-primary" href="@Url.Action("Create", "Doctors")">Create</a>
                 </div>
                 <div class="card-body">
                     <table class="table table-striped" id="table1">
                         <thead>
                             <tr>
+                                <th>Image</th>
                                 <th>Name</th>
                                 <th>Department</th>
                                 <th>Description</th>
@@ -188,6 +190,9 @@
                             @foreach (var item in Model)
                             {
                                 <tr>
+                                    <td>
+                                        <img src="@item.Image" />
+                                    </td>
                                     <td>@item.Name</td>
                                     <td>@item.Department</td>
                                     <td>@item.Description</td>
